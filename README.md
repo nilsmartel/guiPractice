@@ -1,6 +1,14 @@
 # guiPractice
 
-## buttons.go
+---
 
-![alt text](https://raw.githubusercontent.com/sombrastudios/guiPractice/master/img/ui_buttons.go.png "GUI of src/buttons.go")
+### buttons.go
+
+![buttons](./img/ui_buttons.png "GUI of src/buttons.go")
+
+---
+
+### entry.go
+
+![text entry](./img/ui_entry.png "GUI of src/entry.go")
 
