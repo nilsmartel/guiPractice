@@ -2,6 +2,7 @@ package main
 
 import (
 	ui "github.com/andlabs/ui"
+	"log"
 )
 
 func main() {
@@ -34,4 +35,24 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+}
+
+type Nice struct{
+	nice string
+}
+
+func Nice(nice string) Nice {
+	if nice != "nice" {
+		log.Fatal("! Nice.")
+	}
+
+	Nice{nice}
+}
+
+func (n Nice) isNice() bool {
+	return true
+}
+
+func (n Nice) get() string {
+	return n.nice
 }
